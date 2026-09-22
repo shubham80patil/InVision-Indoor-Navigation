@@ -1,0 +1,8 @@
+# 1. Navigate to the project folder
+cd "D:\CV Project\CV_Project2"
+
+# 2. Install dependencies (only needed once)
+pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple/
+
+# 3. Start the server
+python api.py
